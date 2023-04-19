@@ -10,7 +10,7 @@ run:
 	gcc -Wall y.tab.c -ll -o java
 
 test:		
-	./java tests/$(TEST_FILE_NAME).txt
+	./java $(TEST_FILE_NAME).txt
 
 clean:
 	rm -f lex.yy.c y.tab.c java	y.output
