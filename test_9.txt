@@ -1,0 +1,18 @@
+while( i < 10){
+    a = a + i;
+    while(j<=10) {
+        b = b + 2;
+        for( int k = 0 ; k <= 5 ; k++) {
+            c = c + 3;
+            if ( c==5) {
+                c=c+2;
+                break;
+            }
+            continue;
+            ;
+        }
+        j++;
+    }
+    a = a + i;
+    i++;
+}
